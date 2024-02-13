@@ -1,0 +1,13 @@
+{
+  "name": "@alura/nextjs-arquitetura",
+  "workspaces": [
+    "packages/*",
+    "projects/*",
+    "setup/*"
+  ],
+  "scripts": {
+    "dev:web-public": "npm run dev --workspace=projects",
+    "build:web-public": "npm run build --workspace=projects",
+    "start:web-public": "npm run start --workspace=projects"
+  }
+}
