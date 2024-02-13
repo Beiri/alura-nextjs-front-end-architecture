@@ -5,6 +5,12 @@
     "projects/*",
     "setup/*"
   ],
+  "dependencies": {
+    "@types/node": "20.11.17",
+    "@types/react": "18.2.55",
+    "@types/styled-components": "^5.1.34",
+    "typescript": "5.3.3"
+  },
   "scripts": {
     "dev:web-public": "npm run dev --workspace=projects",
     "build:web-public": "npm run build --workspace=projects",

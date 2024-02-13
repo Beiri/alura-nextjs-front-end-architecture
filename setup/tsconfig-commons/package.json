@@ -1,5 +1,5 @@
 {
-  "name": "@alura/utils",
+  "name": "@alura/tsconfig-commons",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "files": [
+    "base.json"
+  ],
   "devDependencies": {
     "@alura/tsconfig-commons": "*"
   }
