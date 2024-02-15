@@ -1,5 +1,5 @@
 {
-  "name": "@alura/tsconfig-commons",
+  "name": "@alura/eslint-commons",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,5 +14,11 @@
   ],
   "devDependencies": {
     "@alura/tsconfig-commons": "*"
+  },
+  "dependencies": {
+    "eslint-config-next": "^14.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.33.2"
   }
 }

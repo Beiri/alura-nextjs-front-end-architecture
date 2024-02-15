@@ -1,5 +1,9 @@
 import type { AppProps } from "next/app";
-import { createGlobalStyle, ThemeProvider, type DefaultTheme } from "styled-components";
+import {
+  createGlobalStyle,
+  ThemeProvider,
+  type DefaultTheme,
+} from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   html,
