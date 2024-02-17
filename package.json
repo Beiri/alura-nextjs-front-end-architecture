@@ -6,6 +6,7 @@
     "setup/*"
   ],
   "dependencies": {
+    "@types/jest": "27.5.0",
     "@types/node": "20.11.17",
     "@types/react": "18.2.55",
     "@types/styled-components": "^5.1.34",
@@ -18,6 +19,12 @@
     "dev:web-public": "npm run dev --workspace=projects",
     "build:web-public": "npm run build --workspace=projects",
     "start:web-public": "npm run start --workspace=projects",
-    "lint:web-public": "npm run lint --workspace=projects"
+    "lint:web-public": "npm run lint --workspace=projects",
+    "test:web-public": "npm run test --workspace=projects",
+    "test:design-system": "npm run test --workspace=packages/design-system",
+    "test:utils": "npm run test --workspace=packages/utils"
+  },
+  "devDependencies": {
+    "jest": "27.0.0"
   }
 }

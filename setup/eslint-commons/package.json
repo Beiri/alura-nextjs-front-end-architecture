@@ -16,6 +16,7 @@
     "@alura/tsconfig-commons": "*"
   },
   "dependencies": {
+    "eslint-plugin-jest": "26.1.5",
     "eslint-config-next": "^14.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
